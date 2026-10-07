@@ -1,0 +1,55 @@
+import { AstronautProfile } from '../types/telemetry';
+
+export const ASTRONAUTS: AstronautProfile[] = [
+  {
+    id: 'astro-01',
+    name: 'Sarah Chen',
+    role: 'Mission Commander',
+    callsign: 'ARES-LEAD',
+    mission: 'Artemis VII / Lunar Gateway Station',
+    daysInSpace: 142,
+    suitId: 'EMU-X4-09',
+    bloodType: 'O-Negative',
+    avatarSeed: 'sarah',
+    cumulativeRadiation_mSv: 48.6,
+    baselineVitals: {
+      restingHR: 62,
+      baselineBP: '118/76',
+      baselineSpO2: 98.5,
+    },
+  },
+  {
+    id: 'astro-02',
+    name: 'Marcus Vance',
+    role: 'Flight Engineer & EVA Specialist',
+    callsign: 'TITAN-2',
+    mission: 'Artemis VII / Lunar Gateway Station',
+    daysInSpace: 89,
+    suitId: 'EMU-X4-14',
+    bloodType: 'A-Positive',
+    avatarSeed: 'marcus',
+    cumulativeRadiation_mSv: 31.2,
+    baselineVitals: {
+      restingHR: 56,
+      baselineBP: '115/72',
+      baselineSpO2: 99.0,
+    },
+  },
+  {
+    id: 'astro-03',
+    name: 'Dr. Elena Rostova',
+    role: 'Science & Bio-Medical Specialist',
+    callsign: 'NOVAS-3',
+    mission: 'Artemis VII / Lunar Gateway Station',
+    daysInSpace: 215,
+    suitId: 'EMU-X4-03',
+    bloodType: 'B-Positive',
+    avatarSeed: 'elena',
+    cumulativeRadiation_mSv: 64.1,
+    baselineVitals: {
+      restingHR: 64,
+      baselineBP: '116/74',
+      baselineSpO2: 98.8,
+    },
+  },
+];
